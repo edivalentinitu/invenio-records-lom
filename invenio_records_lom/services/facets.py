@@ -27,6 +27,9 @@ def license_labels(keys: list) -> dict:
         "https://creativecommons.org/licenses/by-nc/4.0/": _("CC BY-NC 4.0"),
         "https://creativecommons.org/licenses/by-nc-sa/4.0/": _("CC BY-NC-SA 4.0"),
         "https://creativecommons.org/licenses/by-nc-nd/4.0/": _("CC BY-NC-ND 4.0"),
+        "https://mit-license.org/": _("MIT"),
+        "https://opensource.org/license/apache-2-0": _("Apache 2.0"),
+        "https://spdx.org/licenses/GPL-3.0-or-later": _("GNU GPL 3.0"),
     }
     out = {}
     for key in keys:
